@@ -1,0 +1,703 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.appointment {
+    position: relative;
+    color: white;
+  }
+.home-parent a {
+  text-decoration: none; /* Remove underline */
+  color: black; /* Set link color to black */
+}
+
+.home-parent a:hover {
+  text-decoration: underline; /* Add underline on hover */
+  color: #333; /* Darker color on hover */
+}
+.rectangle-group:hover .image-32-icon {
+  opacity: 0.8; /* Adjust the opacity as needed */
+  transform: scale(1.1); /* Adjust the scale factor for the zoom effect */
+  transition: opacity 0.3s, transform 0.3s; /* Add smooth transition */
+}
+
+.rectangle-group:hover .healthcare-1-group {
+  opacity: 0.8; /* Adjust the opacity as needed */
+  transform: scale(1.1); /* Adjust the scale factor for the zoom effect */
+  transition: opacity 0.3s, transform 0.3s; /* Add smooth transition */
+}
+
+
+
+  .get-in-touch {
+    margin: 0;
+  }
+  .get-in-touch-container {
+    position: relative;
+    font-size: var(--heading-3-size);
+    display: inline-block;
+    color: var(--color-black);
+    text-align: left;
+    width: 464px;
+  }
+  .appointment-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-xl);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .far-far-away {
+    position: relative;
+    font-size: var(--button-text-1-size);
+    font-weight: 500;
+    color: var(--color-black);
+    text-align: left;
+    display: inline-block;
+    width: 414px;
+  }
+  .frame-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 44px;
+  }
+  .frame-child {
+    position: relative;
+    border-radius: 50%;
+    background-color: var(--color-darkcyan-100);
+    width: 27px;
+    height: 27px;
+    z-index: 0;
+  }
+  .vector-icon,
+  .vector-icon1 {
+    position: absolute;
+    margin: 0 !important;
+    top: 7.5px;
+    left: 5.5px;
+    width: 16px;
+    height: 12px;
+    z-index: 1;
+  }
+  .vector-icon1 {
+    height: 18.52%;
+    width: 44.44%;
+    top: 42.59%;
+    right: 27.78%;
+    bottom: 38.89%;
+    left: 27.78%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    z-index: 2;
+  }
+  .ellipse-parent,
+  .frame-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .ellipse-parent {
+    flex-direction: row;
+    position: relative;
+    gap: var(--gap-3xs);
+  }
+  .frame-wrapper {
+    flex-direction: column;
+  }
+  .vector-icon2 {
+    position: absolute;
+    margin: 0 !important;
+    height: 50%;
+    width: 50%;
+    top: 23.33%;
+    right: 24.07%;
+    bottom: 26.67%;
+    left: 25.93%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    z-index: 1;
+  }
+  .frame-div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 24px;
+  }
+  .div {
+    position: relative;
+    font-weight: 500;
+    display: inline-block;
+    width: 520px;
+  }
+  .parent {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .frame-container,
+  .frame-parent,
+  .parent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .frame-container {
+    flex-direction: row;
+    gap: var(--gap-mid);
+    text-align: left;
+    font-size: var(--button-text-1-size);
+    color: var(--color-black);
+  }
+  .frame-parent {
+    flex-direction: column;
+    gap: 56px;
+  }
+  .frame-inner {
+    position: relative;
+    border-radius: var(--br-xl);
+    background-color: var(--color-white);
+    width: 475px;
+    height: 550px;
+    z-index: 0;
+  }
+  .name {
+    position: relative;
+    font-weight: 500;
+  }
+  .name-wrapper {
+    border-radius: var(--br-3xs);
+    background-color: var(--color-white);
+    border: 1px solid var(--color-gainsboro);
+    box-sizing: border-box;
+    width: 405px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: var(--padding-sm) var(--padding-lgi);
+  }
+  .select-appointment-type {
+    position: relative;
+    font-weight: 500;
+    display: inline-block;
+    width: 344px;
+    flex-shrink: 0;
+  }
+  .vector-icon3 {
+    position: relative;
+    width: 12px;
+    height: 7.3px;
+  }
+  .select-appointment-type-parent {
+    border-radius: var(--br-3xs);
+    background-color: var(--color-white);
+    border: 1px solid var(--color-gainsboro);
+    align-items: center;
+    justify-content: center;
+    padding: 12px var(--padding-lgi);
+    gap: var(--gap-3xs);
+  }
+  .message-wrapper,
+  .select-appointment-type-parent,
+  .submit-now-wrapper {
+    width: 405px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+  }
+  .message-wrapper {
+    border-radius: var(--br-3xs);
+    background-color: var(--color-white);
+    border: 1px solid var(--color-gainsboro);
+    height: 159px;
+    flex-shrink: 0;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 17px var(--padding-lgi);
+  }
+  .submit-now-wrapper {
+    border-radius: var(--br-8xs);
+    background-color: #0570ba;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 157px;
+    font-size: var(--button-text-1-size);
+    color: var(--color-white);
+}
+  .frame-parent1 {
+    margin: 0 !important;
+    position: absolute;
+    top: 30px;
+    left: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-base);
+    z-index: 1;
+  }
+  .contact-us,
+  .rectangle-parent {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .rectangle-parent {
+    align-items: flex-start;
+    position: relative;
+    gap: var(--gap-3xs);
+    text-align: left;
+    font-size: var(--paragraph-2-size);
+    color: var(--color-darkgray);
+  }
+  .contact-us {
+    position: absolute;
+    top: 694px;
+    left: 0;
+    align-items: center;
+    padding: var(--padding-81xl) 175px var(--padding-81xl) 176px;
+    gap: var(--gap-31xl);
+    font-size: 12px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  .healthcare-1-icon1 {
+    position: relative;
+    width: 275px;
+    height: 41px;
+    object-fit: cover;
+    }
+  
+  .medico {
+    position: relative;
+    display: inline-block;
+    width: 90px;
+    height: 19px;
+    flex-shrink: 0;
+  }
+  .healthcare-1-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-base);
+  }
+  .take-an-appointment,
+  .vector-icon4 {
+    position: relative;
+    width: 13px;
+    height: 16px;
+  }
+  .take-an-appointment {
+    display: inline-block;
+    width: 201px;
+    flex-shrink: 0;
+  }
+  .vector-parent {
+    border-radius: var(--br-3xs);
+    border: 1px solid var(--color-white);
+    box-sizing: border-box;
+    width: 285px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: var(--padding-xl);
+    gap: 18px;
+  }
+  .vector-icon5 {
+    position: relative;
+    width: 18px;
+    height: 18px;
+  }
+  .connect-on-whatsapp {
+    position: relative;
+    display: inline-block;
+    width: 212px;
+    height: 14px;
+    flex-shrink: 0;
+  }
+  .frame-parent4,
+  .vector-group {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .vector-group {
+    border-radius: var(--br-3xs);
+    border: 1px solid var(--color-white);
+    flex-direction: row;
+    align-items: center;
+    padding: var(--padding-xl);
+    gap: 15px;
+  }
+  .frame-parent4 {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--gap-xl);
+    font-size: var(--button-text-1-size);
+  }
+  .frame-parent3,
+  .pathology-parent {
+    flex-direction: column;
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .frame-parent3 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-31xl);
+    font-size: 24px;
+  }
+  .pathology-parent {
+    width: 120px;
+    gap: var(--gap-3xs);
+  }
+  .frame-parent2,
+  .pathology-parent,
+  .woman-health-parent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .woman-health-parent {
+    flex-direction: column;
+    gap: var(--gap-3xs);
+  }
+  .frame-parent2 {
+    flex-direction: row;
+    gap: 75px;
+  }
+  .mdifacebook-icon {
+    position: relative;
+    width: 32px;
+    height: 32px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .vector-icon6,
+  .vector-icon7 {
+    position: relative;
+    width: 27.9px;
+    height: 22.7px;
+  }
+  .vector-icon7 {
+    width: 26.7px;
+    height: 26.7px;
+  }
+  .footer,
+  .mdifacebook-parent {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .mdifacebook-parent {
+    flex-direction: row;
+    align-items: center;
+    gap: var(--gap-mid);
+  }
+  .footer {
+    position: absolute;
+    top: 1376px;
+    left: 0;
+    background-color: #0570ba;
+    height: 437px;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: var(--padding-81xl) 169px 50px 170px;
+    box-sizing: border-box;
+    gap: 41px;
+    color: var(--color-white);
+}
+  .vector-icon9 {
+    position: relative;
+    width: 14.6px;
+    height: 20.8px;
+  }
+  .vector-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 12px;
+  }
+  .ionmail-outline-icon {
+    position: relative;
+    width: 22px;
+    height: 22px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .frame-parent8,
+  .ionmail-outline-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 14px;
+  }
+  .frame-parent8 {
+    gap: 48px;
+  }
+  .connect-on-whatsapp1 {
+    position: relative;
+    text-decoration: underline;
+    font-weight: 500;
+  }
+  .frame-parent7,
+  .icbaseline-whatsapp-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .icbaseline-whatsapp-parent {
+    justify-content: center;
+    gap: var(--gap-5xs);
+    font-size: var(--font-size-base);
+    font-family: var(--font-inter);
+  }
+  .frame-parent7 {
+    width: 1440px;
+    justify-content: flex-start;
+    padding: 10px 156px;
+    box-sizing: border-box;
+    gap: 415px;
+  }
+  
+  .healthcare-1-group,
+  .home-parent {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .healthcare-1-group {
+    align-items: center;
+    gap: var(--gap-3xs);
+  }
+  .home-parent {
+    align-items: flex-start;
+    gap: 25px;
+    text-align: center;
+    font-size: var(--font-size-base);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .vector-icon10 {
+    position: relative;
+    width: 13.5px;
+    height: 13.5px;
+  }
+  .vector-parent1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-5xs);
+    text-align: center;
+  }
+  .appointment-wrapper,
+  .frame-parent10 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .frame-parent10 {
+    justify-content: flex-start;
+    gap: var(--gap-61xl);
+  }
+  .appointment-wrapper {
+    border-radius: var(--br-3xs);
+    background-color: #0570ba;
+    justify-content: center;
+    padding: var(--padding-xl);
+    text-align: center;
+    color: var(--color-white);
+}
+  .frame-parent6,
+  .frame-parent9 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .frame-parent9 {
+    background-color: var(--color-white);
+    flex-direction: row;
+    padding: var(--padding-xl) 28px;
+    gap: 42px;
+    text-align: left;
+    font-size: var(--button-text-1-size);
+    color: var(--color-black);
+  }
+  .frame-parent6 {
+    flex-direction: column;
+    gap: 31px;
+  }
+  .group-child {
+    position: absolute;
+    top: 33px;
+    left: 0;
+    border-radius: var(--br-xl);
+    width: 497px;
+    height: 447px;
+  }
+  .image-32-icon {
+    position: absolute;
+    top: 0;
+    left: 37.5px;
+    width: 424px;
+    height: 480px;
+    object-fit: cover;
+  }
+  .rectangle-group {
+    position: relative;
+    width: 497px;
+    height: 480px;
+  }
+  .group-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .your-journey-to-container {
+    position: relative;
+    font-size: var(--heading-1-size);
+    line-height: 90px;
+    color: var(--color-black);
+    text-align: left;
+  }
+  .image-32-icon {
+    position: absolute;
+    top: 63px;
+    left: 44.5px;
+    width: 408px;
+    height: 390px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+.discover-more-wrapper> button {
+    background-color: #0570ba;
+    border: none;
+}
+  .discover-more-wrapper {
+    border-radius: var(--br-3xs);
+    background-color: #0570ba;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-xl);
+    color: var(--color-white);
+}
+  .frame-parent12,
+  .frame-parent13 {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .frame-parent13 {
+    width: 544px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 46px;
+  }
+  .frame-parent12 {
+    flex-direction: row;
+    align-items: center;
+    gap: 93px;
+    font-size: var(--button-text-1-size);
+    color: var(--color-mediumseagreen);
+  }
+  .frame-parent5,
+  .hero-image-and-top-menu-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .frame-parent5 {
+    align-items: center;
+    gap: 19px;
+  }
+  .hero-image-and-top-menu-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1440px;
+    height: 777px;
+    align-items: flex-start;
+    padding: 0 0 var(--padding-81xl);
+    box-sizing: border-box;
+  }
+  .instance-child {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: var(--br-8xs);
+    background-color: var(--color-white);
+  }
+  .rectangle-wrapper {
+    position: relative;
+    width: 180px;
+    height: 60px;
+    z-index: 0;
+  }
+  .image-38-icon {
+    position: relative;
+    width: 29px;
+    height: 31px;
+    object-fit: cover;
+  }
+  .image-38-parent,
+  .instance-parent {
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .image-38-parent {
+    margin: 0 !important;
+    top: 14px;
+    left: 10px;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    z-index: 1;
+  }
+  .instance-parent {
+    top: 319px;
+    left: 90px;
+    width: 180px;
+    height: 60px;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    font-size: 14px;
+    color: var(--color-black);
+  }
+  .hero-image-and-top-menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1440px;
+    height: 777px;
+    color: var(--color-ghostwhite);
+  }
+  .desktop-medico {
+    position: relative;
+    background-color: var(--color-ghostwhite);
+    width: 100%;
+    height: 1813px;
+    overflow: hidden;
+    text-align: center;
+    font-size: var(--paragraph-2-size);
+    color: #09a4ad;
+    font-family: var(--button-text-1);
+  }
+  

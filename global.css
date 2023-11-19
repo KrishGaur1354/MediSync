@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --button-text-1: Satoshi;
+    --font-inter: Inter;
+  
+    /* font sizes */
+    --button-text-1-size: 20px;
+    --heading-1-size: 70px;
+    --font-size-base: 16px;
+    --paragraph-2-size: 18px;
+    --heading-3-size: 40px;
+  
+    /* Colors */
+    --color-ghostwhite: #f8f9fe;
+    --color-black: #000;
+    --color-white: #fff;
+    --color-mediumseagreen: #7eb96a;
+    --color-darkcyan-100: #18a0a9;
+    --color-gainsboro: #d9d9d9;
+    --color-darkgray: #979797;
+  
+    /* Gaps */
+    --gap-xl: 20px;
+    --gap-61xl: 80px;
+    --gap-5xs: 8px;
+    --gap-3xs: 10px;
+    --gap-mid: 17px;
+    --gap-31xl: 50px;
+    --gap-base: 16px;
+  
+    /* Paddings */
+    --padding-81xl: 100px;
+    --padding-xl: 20px;
+    --padding-lgi: 19px;
+    --padding-sm: 14px;
+  
+    /* Border radiuses */
+    --br-8xs: 5px;
+    --br-3xs: 10px;
+    --br-xl: 20px;
+  }
+  
