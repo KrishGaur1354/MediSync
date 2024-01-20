@@ -8,7 +8,7 @@ html {
   }
 .home-parent a {
   text-decoration: none; /* Remove underline */
-  color: black; /* Set link color to black */
+  color: black; 
 }
 
 .home-parent a:hover {
