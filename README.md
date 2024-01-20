@@ -24,6 +24,7 @@ MediSync is a groundbreaking website dedicated to diagnostics and the early dete
 
 ## Getting Started
 
+
 To get started with MediSync, follow these steps:
 
 1. Clone the repository:
